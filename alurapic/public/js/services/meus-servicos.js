@@ -27,7 +27,7 @@ angular.module('meusServicos', ['ngResource'])
 					}, function(erro){
 						console.log(erro);
 						reject({
-							mensagem: 'Não foi possivel incluir a foto ' + foto.titulo
+							mensagem: 'Não foi possivel atualizar a foto ' + foto.titulo
 						});
 					});
 				}else{
@@ -42,7 +42,7 @@ angular.module('meusServicos', ['ngResource'])
 					}, function(erro){
 						console.log(erro);
 						reject({
-							mensagem: 'Não foi possivel atualizar a foto ' + foto.titulo
+							mensagem: 'Não foi possivel incluir a foto ' + foto.titulo
 						});
 					});
 				}
